@@ -6,6 +6,9 @@
   "private": false,
   "scripts": {
     "patch": "node ./src/patch-vscode-links.mjs",
+    "patch:dry-run": "node ./src/patch-vscode-links.mjs --dry-run",
+    "restore": "node ./src/patch-vscode-links.mjs --restore",
+    "restore:dry-run": "node ./src/patch-vscode-links.mjs --restore --dry-run",
     "check": "node --check ./src/patch-vscode-links.mjs && node --check ./src/codex-local-link-patch.template.js"
   },
   "keywords": [
