@@ -1,0 +1,19 @@
+{
+  "name": "codex-vscode-link-patch",
+  "version": "0.1.0",
+  "description": "Hot patch utility for fixing Codex file links in the VS Code extension",
+  "type": "module",
+  "private": false,
+  "scripts": {
+    "patch": "node ./src/patch-vscode-links.mjs",
+    "check": "node --check ./src/patch-vscode-links.mjs && node --check ./src/codex-local-link-patch.template.js"
+  },
+  "keywords": [
+    "codex",
+    "vscode",
+    "patch",
+    "openai"
+  ],
+  "author": "Dawsine",
+  "license": "MIT"
+}

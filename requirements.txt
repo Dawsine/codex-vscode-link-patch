@@ -1,0 +1,2 @@
+# No Python runtime dependencies.
+# This tool is implemented with Node.js.
